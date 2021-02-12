@@ -1,9 +1,9 @@
 import React from "react";
 import Navigation from "../Navigation/Navigation";
 
-import s from "./Appbar.module.css";
+import s from "./Pagenav.module.css";
 
-const Apbbar = () => {
+const Pagenav = () => {
   return (
     <header className={s.header}>
       <Navigation />
@@ -11,4 +11,4 @@ const Apbbar = () => {
   );
 };
 
-export default Apbbar;
+export default Pagenav;
